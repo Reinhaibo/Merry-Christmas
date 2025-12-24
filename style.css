@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: black;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#cover {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle, #300030, #000);
+  z-index: 10;
+}
+
+#enterBtn {
+  font-size: 24px;
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(135deg, #ff4d6d, #c77dff);
+  box-shadow: 0 0 30px rgba(255, 150, 255, 0.6);
+  transition: transform 0.3s;
+}
+
+#enterBtn:hover {
+  transform: scale(1.1);
+}
+
+video {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
